@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Program_1</string>
+    <string name="geometric_calc">Геометрический калькулятор</string>
+    <string name="inp_log">Введите логин</string>
+    <string name="inp_pas">Введите пароль</string>
+    <string name="Regist">Регистрация</string>
+    <string name="vibor">Выбор фигуры</string>
+    <string name="rez">Результат вычисления</string>
+    <string name="namefig">Название выбранной фигуры</string>
+    <string name="rezultText">РЕЗУЛЬТАТ</string>
+    <string name="znach">Введите значение</string>
+    <string name="vvod">Выполнить расчет</string>
+    <string name="main_3">Геометрический калькулятор</string>
+    <string name="text_3">Результат вычисления</string>
+    <string name="ed1_3">Название выбранной фигуры</string>
+</resources>

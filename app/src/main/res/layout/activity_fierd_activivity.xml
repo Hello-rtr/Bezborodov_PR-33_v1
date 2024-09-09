@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fierd_activivity"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    android:padding="10dp">
+
+  <TextView
+      android:id="@+id/but"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="22dp"
+      android:text="@string/main_3"
+      android:textSize="24dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="148dp"
+      android:layout_height="148dp"
+      android:layout_marginTop="70dp"
+      android:background="@drawable/image"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="30dp"
+      android:layout_marginTop="283dp"
+      android:text="@string/text_3"
+      android:textSize="18dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/figure"
+      android:background="@drawable/ramc"
+      android:textColor="@color/gray"
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:hint="@string/ed1_3"
+      android:layout_marginStart="30dp"
+      android:layout_marginTop="335dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+  <EditText
+      android:id="@+id/rez"
+      android:background="@drawable/ramc"
+      android:textColor="@color/gray"
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:hint="@string/ed1_3"
+      android:layout_marginStart="30dp"
+      android:layout_marginTop="430dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/butt"
+      android:layout_width="383dp"
+      android:layout_height="49dp"
+      android:layout_marginTop="520dp"
+      android:background="@drawable/button_fon"
+      android:text="@string/Regist"
+      android:textColor="@color/white"
+      android:textSize="17dp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
