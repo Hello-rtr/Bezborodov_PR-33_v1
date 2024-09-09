@@ -29,7 +29,7 @@ class fierst_activivity : AppCompatActivity() {
                 val savedLogin = sharedPreferences.getString("login", "")
                 val savedPassword = sharedPreferences.getString("password", "")
 
-                if (login == "hello " && password == "hello " || (login == savedLogin && password == savedPassword)) {
+                if (login == "ects " && password == "ects2023 " || (login == savedLogin && password == savedPassword)) {
                     val editor = sharedPreferences.edit()
                     editor.putString("login", login)
                     editor.putString("password", password)
